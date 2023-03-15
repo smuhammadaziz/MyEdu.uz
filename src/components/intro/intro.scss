@@ -1,0 +1,22 @@
+.intro {
+  background-color: #ddf4ff;
+  font-size: 18px;
+}
+
+.intro .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro__left h1 {
+  width: 450px;
+  font-size: 50px;
+  color: #202a69;
+}
+
+.intro__left p {
+  font-size: 20px;
+  width: 300px;
+  margin-bottom: 50px;
+}

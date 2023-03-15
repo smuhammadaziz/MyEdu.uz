@@ -1,0 +1,134 @@
+.StatisticsPart {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 0;
+
+  .StatCardsWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 288px);
+    justify-content: center;
+    gap: 24px;
+
+    .StatCard {
+      border-radius: 8px;
+      padding: 20px 30px;
+      cursor: pointer;
+      transition: box-shadow 0.2s ease-in;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+
+      .StatNumber {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 80px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #96bb7c;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        .animatedDiv {
+          display: inline-block;
+        }
+      }
+
+      .StatType {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #252b42;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .StatisticsPart {
+    background-color: #fff;
+    padding: 20px;
+
+    .StatCardsWrapper {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 400px);
+      justify-content: center;
+      gap: 24px;
+
+      .StatCard {
+        border-radius: 8px;
+        padding: 20px 30px;
+
+        .StatNumber {
+          font-weight: 500;
+          font-size: 48px;
+          line-height: 150.02%;
+          display: block;
+          text-align: center;
+
+          .animatedDiv {
+            display: inline-block;
+          }
+        }
+
+        .StatType {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150.02%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .StatisticsPart {
+    background-color: #fff;
+    padding: 20px;
+
+    .StatCardsWrapper {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 100%;
+      justify-content: center;
+      gap: 24px;
+
+      .StatCard {
+        border-radius: 8px;
+        padding: 40px 30px;
+
+        .StatNumber {
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 150.02%;
+          display: block;
+          text-align: center;
+          .animatedDiv {
+            display: inline-block;
+          }
+        }
+
+        .StatType {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 150.02%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
