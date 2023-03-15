@@ -1,0 +1,286 @@
+.hero {
+  padding: 70px 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .heroContainer {
+    .heroContents {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .heroContentLeft {
+        width: 48%;
+        margin-right: 30px;
+        text-align: justify;
+
+        .heroHeading {
+          color: #fff;
+          margin-bottom: 14px;
+        }
+
+        .heroDesc {
+          color: #fff;
+          font-size: 17px;
+          width: 60%;
+        }
+
+        .hero-btn {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 15px 40px;
+          gap: 10px;
+          width: 193px;
+          background: #96bb7c;
+          font-family: 'Montserrat', sans-serif;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          border: 2px solid #96bb7c;
+          transition: 0.3s all ease-in;
+          text-decoration: none;
+
+          &:hover {
+            background-color: transparent;
+            border: 2px solid #96bb7c;
+            color: #fff;
+          }
+
+          &:active {
+            background-color: #96bb7c;
+            border: 2px solid #96bb7c;
+            color: #fff;
+          }
+        }
+      }
+
+      .heroContentsformwrapper {
+        background-color: #ffffff;
+        padding: 100px 50px;
+        border-radius: 8px;
+        width: 45%;
+
+        .classFormHeading {
+          font-size: 21px;
+        }
+
+        .heroForm {
+          padding-bottom: 50px;
+        }
+
+        .classCodeInput {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          padding: 10px 15px;
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hero {
+    padding: 70px 0;
+
+    .container {
+      .heroContents {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .heroContentLeft {
+          width: 60%;
+          margin-right: 0;
+          text-align: justify;
+
+          .heroHeading {
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 25px;
+          }
+
+          .heroDesc {
+            color: #fff;
+            font-size: 17px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+          }
+          .hero-btn {
+            margin: auto;
+          }
+        }
+
+        .heroContentsformwrapper {
+          margin-top: 70px;
+          background-color: #ffffff;
+          padding: 100px 50px;
+          border-radius: 8px;
+          width: 60%;
+
+          .classFormHeading {
+            font-size: 17px;
+          }
+
+          .heroForm {
+            padding-bottom: 50px;
+          }
+
+          .classCodeInput {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 690px) {
+  .hero {
+    padding: 70px 0;
+    height: 100%;
+
+    .container {
+      .heroContents {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .heroContentLeft {
+          width: 80%;
+          margin-right: 0;
+          text-align: justify;
+
+          .heroHeading {
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 21px;
+          }
+
+          .heroDesc {
+            color: #fff;
+            font-size: 13px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+          }
+          .hero-btn {
+            margin: auto;
+            width: 170px;
+            font-size: 13px;
+          }
+        }
+
+        .heroContentsformwrapper {
+          margin-top: 70px;
+          background-color: #ffffff;
+          padding: 100px 50px;
+          border-radius: 8px;
+          width: 80%;
+
+          .classFormHeading {
+            font-size: 10px;
+          }
+
+          .heroForm {
+            padding-bottom: 50px;
+          }
+
+          .classCodeInput {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 10px 0;
+          }
+
+          .continue {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 527px) {
+  .hero {
+    padding: 70px 0;
+    height: 100%;
+
+    .container {
+      .heroContents {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .heroContentLeft {
+          width: 80%;
+          margin-right: 0;
+          text-align: justify;
+
+          .heroHeading {
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+
+          .heroDesc {
+            color: #fff;
+            font-size: 11px;
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 30px;
+          }
+          .hero-btn {
+            margin: auto;
+            width: 160px;
+            font-size: 11px;
+          }
+        }
+
+        .heroContentsformwrapper {
+          margin-top: 70px;
+          background-color: #ffffff;
+          padding: 25px 20px;
+          border-radius: 8px;
+          width: 80%;
+
+          .classFormHeading {
+            font-size: 10px;
+            width: 60%;
+          }
+
+          .heroForm {
+            padding: 0;
+          }
+
+          .classCodeInput {
+            margin-top: 5px;
+            margin-bottom: 5px;
+          }
+
+          .continue {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
